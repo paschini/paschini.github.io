@@ -81,8 +81,10 @@
 
     var toggleMailBubble = function () {
       var place = document.getElementById('mailBubble');
+      var phantom = document.getElementById('phoneBubble');
       
       if (place.style.display == 'none') {
+        phantom.style.display = 'none';
         place.style.animationName = 'bubblein';
         place.style.display = 'inline-block';
       } else {
@@ -96,8 +98,10 @@
 
     var togglePhoneBubble = function () {
       var place = document.getElementById('phoneBubble');
+      var phantom = document.getElementById('mailBubble');
 
       if (place.style.display == 'none') {
+        phantom.style.display = 'none';
         place.style.animationName = 'bubblein';
         place.style.display = 'inline-block';
       } else {
