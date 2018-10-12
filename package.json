@@ -1,7 +1,7 @@
 {
   "name": "cv2018",
-  "version": "1.0.0",
-  "description": "My Online CV",
+  "version": "2.0.0",
+  "description": "My Online Portfolio and CV",
   "main": "./scripts/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
