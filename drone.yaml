@@ -19,8 +19,6 @@ steps:
     image: plugins/gh-pages
     settings:
       remote_url: git@github.com:paschini/paschini.github.io.git
-      ssh_key:
-        from_secret: DRONE_KEY
       target_branch: master
       pages_directory: build/
 
