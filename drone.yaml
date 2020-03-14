@@ -7,12 +7,7 @@ steps:
     image: node
     commands:
       - npm install
-  - name: build
+  - name: deploy
     image: node
     commands:
-      - npm run build
-  - name: publish
-    image: plugins/gh-pages
-    settings:
-      pages_directory: build/
-      upstream_name: master
+      - npm run deploy
