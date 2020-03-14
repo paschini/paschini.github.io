@@ -1,0 +1,10 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+  - name: Deploy to GitHub Pages
+    image: node
+    commands:
+      - npm install
+      - npm deploy
