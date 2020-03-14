@@ -1,6 +1,5 @@
 {
   "name": "paschini.github.io",
-  "homepage": "https://paschini.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
