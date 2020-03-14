@@ -20,7 +20,7 @@ steps:
     settings:
       remote_url: git@github.com:paschini/paschini.github.io.git
       ssh_key:
-        from_secret: drone_key
+        from_secret: github_key
       target_branch: master
       pages_directory: build/
 
