@@ -11,7 +11,12 @@ steps:
     image: node
     commands:
       - npm install
-  - name: deploy
+  - name: build
     image: node
     commands:
-      - npm run deploy
+      - npm run build
+  - name: deploy
+    image: plugins/gh-pages
+    settings:
+      target_branch: master
+      pages_directory: build
