@@ -18,9 +18,8 @@ steps:
   - name: deploy
     image: plugins/gh-pages
     settings:
-      username: ca8227d7a5ee7582499d8599cca7d40bf08fecd9
+      username: b96d0dfd9d446dd785d184853887ff3c81af339d
       password: x-oauth-basic
-      remote_url: git@github.com:paschini/paschini.github.io.git
       target_branch: master
       pages_directory: build/
 
