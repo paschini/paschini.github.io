@@ -18,7 +18,9 @@ steps:
   - name: deploy
     image: plugins/gh-pages
     settings:
-      remote_url: git@github.com:paschini/paschini.github.io.git
+      username: paschini
+      password:
+        from_secret: TOKEN
       target_branch: master
       pages_directory: build/
 
