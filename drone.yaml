@@ -18,9 +18,9 @@ steps:
   - name: deploy
     image: plugins/gh-pages
     settings:
-      username: paschini
-      password:
+      username:
         from_secret: github_secret
+      password: x-oauth-basic
       target_branch: master
       pages_directory: build/
 
