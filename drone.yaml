@@ -2,6 +2,10 @@ kind: pipeline
 type: kubernetes
 name: default
 
+trigger:
+  event:
+    exclude: [ promote ]
+
 steps:
   - name: dependencies
     image: node

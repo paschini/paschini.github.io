@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r paschini/paschini.github.io.git",
+    "deploy": "gh-pages -d build -r git@github.com:paschini/paschini.github.io.git",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
