@@ -1,0 +1,17 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+  - name: dependencies
+    image: node
+    commands:
+      - npm install
+  - name: build
+    image: node
+    commands:
+      - npm run build
+  - name: publish
+    image: plugins/gh-pages
+    settings:
+      pages_directory: build/
