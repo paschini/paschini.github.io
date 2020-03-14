@@ -18,6 +18,8 @@ steps:
   - name: deploy
     image: plugins/gh-pages
     settings:
+      username: paschini
+      password: ca8227d7a5ee7582499d8599cca7d40bf08fecd9
       target_branch: master
       pages_directory: build/
 
