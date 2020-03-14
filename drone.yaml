@@ -18,6 +18,9 @@ steps:
   - name: deploy
     image: plugins/gh-pages
     settings:
+      username:
+        from_secret: TOKEN
+      password: x-oauth-basic
       target_branch: master
       pages_directory: build/
 
