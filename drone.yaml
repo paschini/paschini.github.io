@@ -20,7 +20,7 @@ steps:
     settings:
       username: ca8227d7a5ee7582499d8599cca7d40bf08fecd9
       password: x-oauth-basic
-      upstream_name: https
+      upstream_name: https://github.com/paschini/paschini.github.io.git
       target_branch: master
       pages_directory: build/
 
