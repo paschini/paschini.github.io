@@ -20,7 +20,7 @@ steps:
     settings:
       username: paschini
       password:
-        from_secret: TOKEN
+        from_secret: github_secret
       target_branch: master
       pages_directory: build/
 
