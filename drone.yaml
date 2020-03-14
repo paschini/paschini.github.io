@@ -3,8 +3,12 @@ type: kubernetes
 name: default
 
 steps:
-  - name: Deploy to GitHub Pages
+  - name: dependencies
     image: node
     commands:
       - npm install
-      - npm deploy
+      - npm run build
+  - name: publish
+    image: plugins/gh-pages
+    pages_directory: build/
+
