@@ -7,8 +7,6 @@ name: Github Actions CI
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -30,11 +28,14 @@ jobs:
 
       - name: Install Packages
         run: npm install
+      
+      - name: Build 
+        run: npm run build
 
       # Runs a set of commands using the runners shell
       - name: Deploy to Github Pages
-        run: |
-          git config --global user.email ${{ secrets.EMAIL }}
-          git config --global user.name ${{ secrets.USERNAME }}
-          git remote set-url origin https://${{ secrets.TOKEN }}@github.com/${{ secrets.USERNAME }}/${{ secrets.USERNAME }}.github.io.git
-          npm run deploy
+        uses: Cecilapp/GitHub-Pages-deploy@master
+        env:
+          EMAIL: ${{secrets.EMAIL}}
+          GH_TOKEN: ${{secrets.TOKEN}}
+          BUILD_DIR: build
