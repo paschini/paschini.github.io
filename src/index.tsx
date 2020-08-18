@@ -5,10 +5,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import BaseLayout from './BaseLayout';
 import * as serviceWorker from './serviceWorker';
+import { ThemeProvider } from 'react-jss';
+import { theme } from './base-css-theme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BaseLayout />
+    <ThemeProvider theme={theme}>
+      <BaseLayout />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,15 +1,15 @@
 /** @format */
 
 import React from 'react';
-import { createUseStyles, ThemeProvider, useTheme } from 'react-jss';
+import { createUseStyles, useTheme } from 'react-jss';
 import logo from './logo.svg';
 
 const useStyles = createUseStyles({
-  App: {
+  layout: {
     textAlign: 'center',
     background: ({ theme }) => theme.background
   },
-  AppHeader: {
+  header: {
     backgroundColor: ({ theme }) => theme.headerBackground,
     minHeight: '100vh',
     display: 'flex',
@@ -23,35 +23,25 @@ const useStyles = createUseStyles({
     from: { transform: 'rotate(0deg)' },
     to: { transform: 'rotate(360deg)' }
   },
-  AppLogo: {
+  logo: {
     height: '40vmin',
     pointerEvents: 'none',
     animationName: '$AppLogoSpin',
     animation: 'infinite 20s linear'
-  },
-  AppLink: {
-    color: '#61dafb'
   }
 });
 
 function BaseLayout(): JSX.Element {
-  const theme = {
-    background: '#282c34',
-    headerBackground: '#282c34',
-    color: 'white'
-  };
-
+  const theme = useTheme();
   const classes = useStyles({ theme });
 
   return (
-    <ThemeProvider theme={theme}>
-      <div className={classes.App}>
-        <header className={classes.AppHeader}>
-          <img src={logo} className={classes.AppLogo} alt='logo' />
-          <p>Now we are cooking with fire!</p>
-        </header>
-      </div>
-    </ThemeProvider>
+    <div className={classes.layout}>
+      <header className={classes.header}>
+        <img src={logo} className={classes.logo} alt='logo' />
+        <p>Now we are cooking with fire!</p>
+      </header>
+    </div>
   );
 }
 
