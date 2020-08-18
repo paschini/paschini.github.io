@@ -35,7 +35,7 @@ const useStyles = createUseStyles({
   article: {
     minHeight: '50vh',
     color: ({ theme }) => theme.color,
-    padding: '8em 5em',
+    padding: '4em 5em',
     fontSize: 'calc(5px + 2vmin)',
     display: 'flex',
     flexDirection: 'column'
