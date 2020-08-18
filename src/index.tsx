@@ -1,36 +1,25 @@
 /** @format */
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import BaseLayout from './BaseLayout';
+import { render } from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import jss from 'jss';
-import preset from 'jss-preset-default';
-import { ThemeProvider, SheetsRegistry, JssProvider } from 'react-jss';
-import { theme, globalStyleSheet } from './base-css-theme';
+import { ThemeProvider } from 'react-jss';
+import BaseLayout from './BaseLayout';
+import { theme, globalStyles } from './base-css-theme';
 
-const setupJss = () => {
-  jss.setup(preset());
+const App = () => {
+  globalStyles();
 
-  const sheetsRegistry = new SheetsRegistry();
-
-  sheetsRegistry.add(globalStyleSheet);
-  return sheetsRegistry;
-};
-
-const sheets = setupJss();
-
-ReactDOM.render(
-  <React.StrictMode>
-    <JssProvider registry={sheets}>
+  return (
+    <React.StrictMode>
       <ThemeProvider theme={theme}>
         <BaseLayout />
       </ThemeProvider>
-    </JssProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    </React.StrictMode>
+  );
+};
+
+render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
