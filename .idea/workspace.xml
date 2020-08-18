@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:source" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d40ac1d-c763-4606-8c54-19c9d9a09c2d" name="Default Changelist" comment="deploying to github pages">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-08-18_00_54__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base-css-theme.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my-cv.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="source" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/source" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="source" />
+                    <option name="lastUsedInstant" value="1597707008" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1597706769" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z80zW1gINqfg8tl1NYvQPaCpqY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\Camila\Documents\Developer\paschini.github.io\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Camila\Documents\Developer\paschini.github.io\node_modules\prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Users\Camila\Documents\Developer\paschini.github.io\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Camila\Documents\Developer\paschini.github.io\src\__tests__" />
+      <recent name="C:\Users\Camila\Documents\Developer\paschini.github.io\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.BaseLayout Tests (1)">
+    <configuration name="BaseLayout Tests (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/BaseLayout.test.tsx" />
+      <test-names>
+        <test-name value="BaseLayout Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="BaseLayout Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/App.test.tsx" />
+      <test-names>
+        <test-name value="BaseLayout Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="BaseLayout Tests.base layout renders initial message" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/BaseLayout.test.tsx" />
+      <test-names>
+        <test-name value="BaseLayout Tests" />
+        <test-name value="base layout renders initial message" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.tsx" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="INSTALL" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="install" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Jest.renders learn react link" />
+      <item itemvalue="Jest.BaseLayout Tests" />
+      <item itemvalue="Jest.BaseLayout Tests.base layout renders initial message" />
+      <item itemvalue="Jest.BaseLayout Tests (1)" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.INSTALL" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.BaseLayout Tests (1)" />
+        <item itemvalue="Jest.BaseLayout Tests.base layout renders initial message" />
+        <item itemvalue="Jest.BaseLayout Tests" />
+        <item itemvalue="Jest.renders learn react link" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d40ac1d-c763-4606-8c54-19c9d9a09c2d" name="Default Changelist" comment="" />
+      <created>1584205676208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584205676208</updated>
+      <workItem from="1584205677654" duration="6961000" />
+      <workItem from="1584223345154" duration="5000" />
+      <workItem from="1584230720039" duration="563000" />
+      <workItem from="1597686725486" duration="452000" />
+      <workItem from="1597687369602" duration="4188000" />
+      <workItem from="1597693911611" duration="2796000" />
+      <workItem from="1597704837876" duration="2425000" />
+      <workItem from="1597740838588" duration="5172000" />
+      <workItem from="1597746073445" duration="12411000" />
+      <workItem from="1597759375051" duration="185000" />
+    </task>
+    <task id="LOCAL−00001" summary="this should trigger a drone build and deploy to github pages">
+      <created>1584208013126</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1584208013126</updated>
+    </task>
+    <task id="LOCAL−00002" summary="renamed the drone file">
+      <created>1584208192133</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1584208192133</updated>
+    </task>
+    <task id="LOCAL−00003" summary="renamed the drone file">
+      <created>1584208223856</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1584208223856</updated>
+    </task>
+    <task id="LOCAL−00004" summary="trigger?">
+      <created>1584208367984</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1584208367984</updated>
+    </task>
+    <task id="LOCAL−00005" summary="deploying to github pages">
+      <created>1584231188816</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1584231188816</updated>
+    </task>
+    <task id="LOCAL−00006" summary="updating / removing drone">
+      <created>1597689346196</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1597689346196</updated>
+    </task>
+    <task id="LOCAL−00007" summary="adding the files back">
+      <created>1597690338178</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1597690338178</updated>
+    </task>
+    <task id="LOCAL−00008" summary="adding everything">
+      <created>1597694088330</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1597694088330</updated>
+    </task>
+    <task id="LOCAL−00009" summary="fixing indentation again">
+      <created>1597694161353</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1597694161353</updated>
+    </task>
+    <task id="LOCAL−00010" summary="fixing URL">
+      <created>1597694566295</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1597694566295</updated>
+    </task>
+    <task id="LOCAL−00011" summary="fixing again">
+      <created>1597695127687</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1597695127687</updated>
+    </task>
+    <task id="LOCAL−00012" summary="base code">
+      <created>1597705538375</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1597705538375</updated>
+    </task>
+    <task id="LOCAL−00013" summary="changed base branch to push to source">
+      <created>1597705744973</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1597705744973</updated>
+    </task>
+    <task id="LOCAL−00014" summary="small update">
+      <created>1597706062352</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1597706062352</updated>
+    </task>
+    <task id="LOCAL−00015" summary="removing actions from master">
+      <created>1597706526415</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1597706526415</updated>
+    </task>
+    <task id="LOCAL−00016" summary="added readme to master">
+      <created>1597706860778</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1597706860778</updated>
+    </task>
+    <task id="LOCAL−00017" summary="refactor to typescript template and added JSS, eslint and prettier">
+      <created>1597755000579</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1597755000579</updated>
+    </task>
+    <task id="LOCAL−00018" summary="added actions to source again">
+      <created>1597755243281</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1597755243281</updated>
+    </task>
+    <task id="LOCAL−00019" summary="added a test, added tests to deploy.yml, fixed no extra export from index.tsx">
+      <created>1597757369215</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1597757369215</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="&quot;C:\Program Files\Git\bin\sh.exe&quot; --login -i" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="source" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="this should trigger a drone build and deploy to github pages" />
+    <MESSAGE value="renamed the drone file" />
+    <MESSAGE value="trigger?" />
+    <MESSAGE value="deploying to github pages" />
+    <MESSAGE value="updating / removing drone" />
+    <MESSAGE value="adding the files back" />
+    <MESSAGE value="adding everything" />
+    <MESSAGE value="fixing indentation again" />
+    <MESSAGE value="fixing URL" />
+    <MESSAGE value="fixing again" />
+    <MESSAGE value="base code" />
+    <MESSAGE value="changed base branch to push to source" />
+    <MESSAGE value="small update" />
+    <MESSAGE value="removing actions from master" />
+    <MESSAGE value="added readme to master" />
+    <MESSAGE value="refactor to typescript template and added JSS, eslint and prettier" />
+    <MESSAGE value="added actions to source again" />
+    <MESSAGE value="added a test, added tests to deploy.yml, fixed no extra export from index.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a test, added tests to deploy.yml, fixed no extra export from index.tsx" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="659" width="838" height="577" key="#ESLint" timestamp="1597759085170">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="578" y="659" width="838" height="577" key="#ESLint/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597759085170" />
+    <state x="787" y="534" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597686940731">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="787" y="534" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597686940731" />
+    <state x="1031" y="570" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597748054475">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="1031" y="570" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597748054475" />
+    <state x="676" y="430" width="1815" height="966" key="DiffContextDialog" timestamp="1597755208104">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="676" y="430" width="1815" height="966" key="DiffContextDialog/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597755208104" />
+    <state x="1261" y="620" key="FileChooserDialogImpl" timestamp="1597693907698">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="1261" y="620" key="FileChooserDialogImpl/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597693907698" />
+    <state width="1019" height="1412" key="GridCell.Tab.0.bottom" timestamp="1597759356526">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state width="1019" height="1412" key="GridCell.Tab.0.bottom/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597759356526" />
+    <state width="1019" height="1412" key="GridCell.Tab.0.center" timestamp="1597759356525">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state width="1019" height="1412" key="GridCell.Tab.0.center/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597759356525" />
+    <state width="1019" height="1412" key="GridCell.Tab.0.left" timestamp="1597759356525">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state width="1019" height="1412" key="GridCell.Tab.0.left/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597759356525" />
+    <state width="1019" height="1412" key="GridCell.Tab.0.right" timestamp="1597759356526">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state width="1019" height="1412" key="GridCell.Tab.0.right/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597759356526" />
+    <state x="420" y="192" key="MergeDialog" timestamp="1597704912875">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="420" y="192" key="MergeDialog/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597704912875" />
+    <state x="1037" y="399" key="RollbackChangesDialog" timestamp="1597745911246">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="1037" y="399" key="RollbackChangesDialog/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597745911246" />
+    <state x="834" y="524" key="SettingsEditor" timestamp="1597756899858">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="834" y="524" key="SettingsEditor/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597756899858" />
+    <state x="1019" y="655" key="Vcs.Push.Dialog.v2" timestamp="1597706864029">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="1019" y="655" key="Vcs.Push.Dialog.v2/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597706864029" />
+    <state x="1245" y="836" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597706465562">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="1245" y="836" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597706465562" />
+    <state x="1056" y="529" key="refactoring.ChangeSignatureDialog" timestamp="1597745869217">
+      <screen x="0" y="0" width="2560" height="1560" />
+    </state>
+    <state x="1056" y="529" key="refactoring.ChangeSignatureDialog/0.0.2560.1560/-2560.0.2560.1560@0.0.2560.1560" timestamp="1597745869217" />
+  </component>
+</project>
