@@ -5,14 +5,29 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import BaseLayout from './BaseLayout';
 import * as serviceWorker from './serviceWorker';
-import { ThemeProvider } from 'react-jss';
-import { theme } from './base-css-theme';
+import jss from 'jss';
+import preset from 'jss-preset-default';
+import { ThemeProvider, SheetsRegistry, JssProvider } from 'react-jss';
+import { theme, globalStyleSheet } from './base-css-theme';
+
+const setupJss = () => {
+  jss.setup(preset());
+
+  const sheetsRegistry = new SheetsRegistry();
+
+  sheetsRegistry.add(globalStyleSheet);
+  return sheetsRegistry;
+};
+
+const sheets = setupJss();
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <BaseLayout />
-    </ThemeProvider>
+    <JssProvider registry={sheets}>
+      <ThemeProvider theme={theme}>
+        <BaseLayout />
+      </ThemeProvider>
+    </JssProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
