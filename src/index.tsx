@@ -4,7 +4,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import { ThemeProvider } from 'react-jss';
-import BaseLayout from './BaseLayout';
+import Home from './Home';
 import { theme, globalStyles } from './base-css-theme';
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <React.StrictMode>
       <ThemeProvider theme={theme}>
-        <BaseLayout />
+        <Home />
       </ThemeProvider>
     </React.StrictMode>
   );

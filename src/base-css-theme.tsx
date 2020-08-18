@@ -33,7 +33,13 @@ export const globalStyles = createUseStyles({
 });
 
 export const theme = {
-  background: '#282c34',
-  headerBackground: '#282c34',
+  background: '#282a36',
+  darkBackground: '#1D2228',
+  primary: '#FF79C5',
+  secondary: '#8BE9FD',
+  error: '#ff5555',
+  warning: '#ffb86c',
+  highlight: '#f1fa8c',
+  greenHighlight: '#50fa7b',
   color: 'white'
 };

@@ -7,11 +7,11 @@ import logo from './logo.svg';
 const useStyles = createUseStyles({
   layout: {
     textAlign: 'center',
-    background: ({ theme }) => theme.background
+    backgroundColor: ({ theme }) => theme.background
   },
   header: {
-    backgroundColor: ({ theme }) => theme.headerBackground,
-    minHeight: '100vh',
+    minHeight: '50vh',
+    paddingTop: '3em',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -28,10 +28,21 @@ const useStyles = createUseStyles({
     pointerEvents: 'none',
     animationName: '$AppLogoSpin',
     animation: 'infinite 20s linear'
+  },
+  title: {
+    color: ({ theme }) => theme.primary
+  },
+  article: {
+    minHeight: '50vh',
+    color: ({ theme }) => theme.color,
+    padding: '10em 5em',
+    fontSize: 'calc(5px + 2vmin)',
+    display: 'flex',
+    flexDirection: 'column'
   }
 });
 
-function BaseLayout(): JSX.Element {
+function Home(): JSX.Element {
   const theme = useTheme();
   const classes = useStyles({ theme });
 
@@ -39,10 +50,14 @@ function BaseLayout(): JSX.Element {
     <div className={classes.layout}>
       <header className={classes.header}>
         <img src={logo} className={classes.logo} alt='logo' />
-        <p>Now we are cooking with fire!</p>
+        <h1 className={classes.title}>Camila Paschini</h1>
       </header>
+      <article className={classes.article}>
+        <code>Javascript, Typescript, React, GraphQL</code>
+        <code>iOS, Swift, Java, C#</code>
+      </article>
     </div>
   );
 }
 
-export default BaseLayout;
+export default Home;
