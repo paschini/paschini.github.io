@@ -48,9 +48,7 @@ function BaseLayout(): JSX.Element {
       <div className={classes.App}>
         <header className={classes.AppHeader}>
           <img src={logo} className={classes.AppLogo} alt='logo' />
-          <p>
-            Now we are cooking with fire!
-          </p>
+          <p>Now we are cooking with fire!</p>
         </header>
       </div>
     </ThemeProvider>
