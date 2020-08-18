@@ -53,6 +53,7 @@ function Home(): JSX.Element {
         <h1 className={classes.title}>Camila Paschini</h1>
       </header>
       <article className={classes.article}>
+        <code>Frontend Dev, UI/UX</code>
         <code>Javascript, Typescript, React, GraphQL</code>
         <code>iOS, Swift, Java, C#</code>
       </article>
