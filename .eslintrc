@@ -20,6 +20,8 @@
       "error",
       {
         "allow": [
+          "**/common/*",
+          "**/info/*",
           "jest-dom/*",
           "react-dom/test-utils",
           "@testing-library/jest-dom/extend-expect"

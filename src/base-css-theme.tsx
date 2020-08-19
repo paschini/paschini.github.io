@@ -6,6 +6,7 @@ export const globalStyles = createUseStyles({
     body: {
       margin: 0,
       overflow: 'hidden',
+      fontSize: 'calc(8px + 2vmin)',
       fontFamily: [
         '-apple-system',
         ' BlinkMacSystemFont',
