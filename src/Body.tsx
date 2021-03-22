@@ -1,21 +1,23 @@
 /** @format */
 
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { createUseStyles, useTheme } from 'react-jss';
 import ModalAnchor from './common/ModalAnchor';
 import WhatIDo from './info/WhatIDo';
+import { Theme } from './base-css-theme';
 
-const useStyles = createUseStyles({
+const useStyles = createUseStyles((theme: Theme) => ({
   article: {
     minHeight: '50vh',
-    color: ({ theme }) => theme.color,
+    color: theme.color,
     padding: '4em 5em',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    cursor: 'pointer'
   }
-});
+}));
 
-function Body(): JSX.Element {
+function Body(): ReactElement {
   const theme = useTheme();
   const classes = useStyles({ theme });
   const modalPositionCorrection = {

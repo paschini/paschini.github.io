@@ -1,26 +1,13 @@
 /** @format */
 
-import React from 'react';
-import { createUseStyles, useTheme } from 'react-jss';
+import React, { ReactElement } from 'react';
+import { useStyles } from '../base-css-theme';
+import { useTheme } from 'react-jss';
 
-const useStyles = createUseStyles({
-  title: {
-    color: ({ theme }) => theme.greenHighlight
-  },
-  definitions: {
-    color: ({ theme }) => theme.primary
-  },
-  important: {
-    color: ({ theme }) => theme.secondary
-  },
-  highlight: {
-    color: ({ theme }) => theme.highlight
-  }
-});
-
-function WhatIDo() {
+function WhatIDo(): ReactElement {
   const theme = useTheme();
   const classes = useStyles({ theme });
+
   return (
     <div>
       <h1 className={classes.title}>whatIdo();</h1>

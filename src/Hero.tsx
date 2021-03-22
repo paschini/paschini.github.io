@@ -1,13 +1,14 @@
 /** @format */
 
-import React from 'react';
+import React, { ReactElement } from 'react';
 import logo from './logo.svg';
 import { createUseStyles, useTheme } from 'react-jss';
 import ModalAnchor from './common/ModalAnchor';
 import DefineMe from './info/DefineMe';
 import WhyReact from './info/WhyReact';
+import { Theme } from './base-css-theme';
 
-export const useStyles = createUseStyles({
+const useStyles = createUseStyles((theme: Theme) => ({
   header: {
     minHeight: '50vh',
     paddingTop: '3em',
@@ -15,7 +16,8 @@ export const useStyles = createUseStyles({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    color: ({ theme }) => theme.color
+    color: theme.color,
+    cursor: 'pointer'
   },
   '@keyframes AppLogoSpin': {
     from: { transform: 'rotate(0deg)' },
@@ -28,11 +30,12 @@ export const useStyles = createUseStyles({
     animation: 'infinite 20s linear'
   },
   title: {
-    color: ({ theme }) => theme.primary
+    color: theme.primary,
+    cursor: 'pointer'
   }
-});
+}));
 
-function Hero(): JSX.Element {
+function Hero(): ReactElement {
   const theme = useTheme();
   const classes = useStyles({ theme });
   const modalPositionCorrection = {

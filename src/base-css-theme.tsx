@@ -33,7 +33,19 @@ export const globalStyles = createUseStyles({
   }
 });
 
-export const theme = {
+export type Theme = {
+  background: string;
+  darkBackground: string;
+  primary: string;
+  secondary: string;
+  error: string;
+  warning: string;
+  highlight: string;
+  greenHighlight: string;
+  color: string;
+};
+
+export const theme: Theme = {
   background: '#282a36',
   darkBackground: '#1D2228',
   primary: '#FF79C5',
@@ -44,3 +56,18 @@ export const theme = {
   greenHighlight: '#50fa7b',
   color: 'white'
 };
+
+export const useStyles = createUseStyles({
+  title: {
+    color: theme.greenHighlight
+  },
+  definitions: {
+    color: theme.primary
+  },
+  important: {
+    color: theme.secondary
+  },
+  highlight: {
+    color: theme.highlight
+  }
+});

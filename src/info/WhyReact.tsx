@@ -1,24 +1,10 @@
 /** @format */
 
-import React from 'react';
-import { createUseStyles, useTheme } from 'react-jss';
+import React, { ReactElement } from 'react';
+import { useStyles } from '../base-css-theme';
+import { useTheme } from 'react-jss';
 
-const useStyles = createUseStyles({
-  title: {
-    color: ({ theme }) => theme.greenHighlight
-  },
-  definitions: {
-    color: ({ theme }) => theme.primary
-  },
-  important: {
-    color: ({ theme }) => theme.secondary
-  },
-  highlight: {
-    color: ({ theme }) => theme.highlight
-  }
-});
-
-function WhyReact(): JSX.Element {
+function WhyReact(): ReactElement {
   const theme = useTheme();
   const classes = useStyles({ theme });
 

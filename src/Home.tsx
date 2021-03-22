@@ -1,18 +1,19 @@
 /** @format */
 
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { createUseStyles, useTheme } from 'react-jss';
 import Hero from './Hero';
 import Body from './Body';
+import { Theme } from './base-css-theme';
 
-const useStyles = createUseStyles({
+const useStyles = createUseStyles((theme: Theme) => ({
   layout: {
     textAlign: 'center',
-    backgroundColor: ({ theme }) => theme.background
+    backgroundColor: theme.background
   }
-});
+}));
 
-function Home(): JSX.Element {
+function Home(): ReactElement {
   const theme = useTheme();
   const classes = useStyles({ theme });
 

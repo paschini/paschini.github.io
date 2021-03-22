@@ -3,9 +3,13 @@
 import React from 'react';
 import { render } from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import { ThemeProvider } from 'react-jss';
+import { createTheming } from 'react-jss';
 import Home from './Home';
 import { theme, globalStyles } from './base-css-theme';
+
+const ThemeContext = React.createContext({});
+const theming = createTheming(ThemeContext);
+const { ThemeProvider } = theming;
 
 const App = () => {
   globalStyles();
