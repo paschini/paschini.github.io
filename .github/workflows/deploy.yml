@@ -37,7 +37,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy to Github Pages
-        uses: Cecilapp/GitHub-Pages-deploy@master
+        uses: Cecilapp/GitHub-Pages-deploy@v2
         env:
           EMAIL: ${{secrets.EMAIL}}
           GH_TOKEN: ${{secrets.TOKEN}}
