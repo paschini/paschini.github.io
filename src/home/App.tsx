@@ -7,13 +7,12 @@ import './App.css';
 function App() {
   return (
     <>
-      <h1>Camila Paschini</h1>
-      <h3> Senior Javascript Engineer</h3>
       <div className='card'>
-        <p></p>
+        <h1>Camila Paschini</h1>
+        <h3> Senior Javascript Engineer</h3>
       </div>
 
-      <div>
+      <div className={'bottom'}>
         <p className='muted'>Made with Vite and React</p>
         <a href='https://vite.dev' target='_blank'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
