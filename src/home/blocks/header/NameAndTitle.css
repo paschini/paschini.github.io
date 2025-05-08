@@ -1,16 +1,25 @@
+/** @format */
+
 .nameAndJobTitle {
-    grid-area: header;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.nameAndJobTitle h1 {
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.nameAndJobTitle h2 {
+  line-height: 1.1;
+}
+
+@media only screen and (max-width: 600px) {
+  .nameAndJobTitle {
+    text-align: left;
+    display: block;
   }
-  
-  .nameAndJobTitle h1 {
-    line-height: 1.2;
-    margin-bottom: 0;
-  }
-  
-  .nameAndJobTitle h2 {
-    line-height: 1.1;
-  }
+}

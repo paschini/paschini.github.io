@@ -17,4 +17,8 @@
   .jobs {
     text-align: left;
   }
+
+  .jobs h3 {
+    line-height: 1.4rem;
+  }
 }

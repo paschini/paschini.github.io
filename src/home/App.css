@@ -39,7 +39,7 @@
       'left'
       'footer';
     padding: 10px;
-    grid-template-rows: 10rem 102rem auto 10rem;
+    grid-template-rows: 14rem 126rem auto 10rem;
     grid-template-columns: 1fr;
     padding: 2rem;
     overflow: scroll;
