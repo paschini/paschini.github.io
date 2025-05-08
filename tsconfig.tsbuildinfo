@@ -1,1 +1,1 @@
-{"root":["./src/main.tsx","./src/vite-env.d.ts","./src/home/App.tsx","./src/home/index.tsx","./src/home/__tests__/App-test.tsx","./jest.setup.ts"],"version":"5.7.3"}
+{"root":["./src/main.tsx","./src/vite-env.d.ts","./src/home/app.tsx","./src/home/index.tsx","./src/home/__tests__/app-test.tsx","./src/home/blocks/index.tsx","./src/home/blocks/education/education.tsx","./src/home/blocks/footer/footer.tsx","./src/home/blocks/header/nameandtitle.tsx","./src/home/blocks/jobs/jobs.tsx","./src/home/blocks/skills/skills.tsx","./jest.setup.ts"],"version":"5.7.3"}
