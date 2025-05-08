@@ -1,0 +1,21 @@
+/** @format */
+
+.education {
+  text-align: right;
+  font-size: smaller;
+  padding-right: 2rem;
+}
+
+.education h3 {
+  line-height: 0.3rem;
+}
+
+.spacer {
+  padding-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .education {
+    text-align: left;
+  }
+}

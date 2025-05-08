@@ -1,0 +1,22 @@
+/** @format */
+
+.skills {
+  grid-area: left;
+  padding: 0.5rem;
+  font-size: small;
+  font-style: italic;
+}
+
+.skills h3 {
+  font-weight: bold;
+}
+
+.skills p {
+  padding-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    text-align: left;
+  }
+}

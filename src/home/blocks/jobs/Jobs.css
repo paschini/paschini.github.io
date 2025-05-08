@@ -1,0 +1,20 @@
+/** @format */
+
+.jobs {
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.jobs h3 {
+  line-height: 0.4rem;
+}
+
+.spacer {
+  padding-top: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .jobs {
+    text-align: left;
+  }
+}

@@ -1,0 +1,40 @@
+/** @format */
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  grid-area: footer;
+  text-align: center;
+}
+
+.logo {
+  height: 1.6em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff64aaaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #ff64aaaa);
+}
+
+.muted {
+  text-align: center;
+  font-size: x-small;
+  line-height: 0.1rem;
+  padding: 0;
+}
